@@ -15,7 +15,7 @@ def health():
   return "OK"
 
 @app.route('/test')
-def health():
+def test():
   parametri=["Augums", "Svars", "Vecums"]
   return render_template("test.html", param=parametri)
 
